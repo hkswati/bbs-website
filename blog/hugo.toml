@@ -32,6 +32,7 @@ enableRobotsTXT = true
   showNewsletter = false
   minTagPostsToIndex = 2
   themeColor = "#F7F5EF"
+  favicon = "/images/logo.png"
 
 [[menu.main]]
   name = "Main Site"
