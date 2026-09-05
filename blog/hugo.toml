@@ -24,14 +24,12 @@ enableRobotsTXT = true
   homeEyebrow = "INSIGHTS"
   homeTitle = "Notes on doing business in the Middle East"
   homeIntro = "Practical guidance on market entry, compliance, and the IT services that support growing businesses."
-  email = "mohsin@beyondborders.com.sa"
   mainSection = "articles"
   authorPage = "/"
   showToc = true
   showTopics = true
   showAbout = false
-  showNewsletter = true
-  newsletterURL = ""
+  showNewsletter = false
   minTagPostsToIndex = 2
   themeColor = "#F7F5EF"
 
