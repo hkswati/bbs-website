@@ -37,7 +37,7 @@ enableRobotsTXT = true
   themeColor = "#F7F5EF"
 
 [[menu.main]]
-  name = "Home"
+  name = "Main Site"
   url = "https://beyondborders.com.sa/"
   weight = 10
 
