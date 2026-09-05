@@ -1,0 +1,48 @@
+<footer class="site-footer">
+  <div class="footer-top container">
+    <div class="footer-brand">
+      <a href="/" class="nav-logo">
+        <div class="nav-logo-mark">BB</div>
+        <span class="logo-text">Beyond Borders Technologies</span>
+      </a>
+      <p class="footer-tagline">Enterprise-grade IT and cybersecurity for Saudi businesses — open-source first, compliance ready.</p>
+      <div class="footer-compliance">
+        <span class="compliance-badge">Riyadh, KSA</span>
+        <span class="compliance-badge">AR / EN</span>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-col">
+        <div class="footer-col-title">Services</div>
+        <ul>
+          {{ range hugo.Data.services }}
+          <li><a href="/services/{{ .slug }}/">{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Company</div>
+        <ul>
+          <li><a href="/plans/">Managed Plans</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="{{ .Site.Params.mainSiteURL }}">Beyond Borders Main Site</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Get in Touch</div>
+        <ul>
+          <li><a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a></li>
+          <li><a href="tel:{{ .Site.Params.phone }}">{{ .Site.Params.phone }}</a></li>
+          <li><a href="https://wa.me/{{ .Site.Params.whatsappNumber }}" target="_blank" rel="noopener">WhatsApp Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom container">
+    <p>© {{ now.Format "2006" }} Beyond Borders Technologies. All rights reserved.</p>
+    <p class="footer-bottom-note">A division of Beyond Borders Business Consultancy</p>
+  </div>
+</footer>

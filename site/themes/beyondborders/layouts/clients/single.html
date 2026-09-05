@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-inner">
+      <span class="pill">500+ Entities</span>
+      <h1>Our Clients</h1>
+      <p class="page-tagline">Businesses from over 40 countries have trusted Beyond Borders to establish and grow their presence across the Middle East.</p>
+    </div>
+  </div>
+</section>
+
+<section class="clients-section">
+  <div class="container">
+    <div class="clients-grid">
+      {{ range .Site.Data.clients.logos }}
+      <div class="client-logo">
+        <img src="/images/clients/{{ . }}" alt="Client logo" loading="lazy">
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container cta-strip-inner">
+    <div class="decor-stair" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="cta-strip-text">
+      <h2>Ready to join them?</h2>
+      <p>Talk to our team today — we'll map out the fastest, safest path for your business.</p>
+    </div>
+    <div style="display:flex;gap:12px;flex-shrink:0;flex-wrap:wrap;">
+      <a href="/contact/" class="btn btn-primary">Get Started</a>
+      <a href="/services/" class="btn btn-outline-inv">Our Services</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

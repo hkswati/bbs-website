@@ -1,0 +1,157 @@
+# Infrastructure
+- name: Networking & Infrastructure
+  slug: networking-infrastructure
+  icon: "network"
+  category: Infrastructure
+  tagline: LAN/WAN, switches, Wi-Fi, VPN, and multi-site connectivity
+  summary: Structured cabling, managed switch configuration, Wi-Fi design, VPN setup, and network monitoring. Single-site or multi-branch across KSA.
+
+- name: IP Telephony & VoIP
+  slug: ip-telephony
+  icon: "phone"
+  category: Infrastructure
+  tagline: IP phone systems, extensions, call routing, and PBX setup
+  summary: Supply, installation, and configuration of IP phone systems for offices of any size — desk phones, softphones, call queues, and internal extensions.
+
+- name: Fiber Splicing & Commissioning
+  slug: fiber-splicing
+  icon: "zap"
+  category: Infrastructure
+  tagline: Fiber optic splicing, testing, and end-to-end commissioning
+  summary: Fusion splicing, OTDR testing, patch panel termination, and full fiber link commissioning for new builds, fit-outs, and ISP last-mile connections.
+
+- name: Telecom Infrastructure
+  slug: telecom-infrastructure
+  icon: "git-branch"
+  category: Infrastructure
+  tagline: DWDM systems and enterprise IP switching — installation, commissioning, integration
+  summary: End-to-end installation, commissioning, and integration of DWDM optical transport systems and enterprise-grade IP switches — for telcos, ISPs, and large-scale network deployments.
+
+- name: System Administration
+  slug: system-administration
+  icon: "server"
+  category: Infrastructure
+  tagline: Linux & Windows servers, Active Directory, remote helpdesk
+  summary: Server setup and maintenance, Active Directory, backup and recovery, patch management, and remote helpdesk — for businesses that need IT running without an in-house team.
+
+- name: Data Centre Services
+  slug: data-centre-services
+  icon: "database"
+  category: Infrastructure
+  tagline: Rack build-out, structured cabling, server installation and commissioning
+  summary: Full data centre and server room build-out — rack installation, structured cabling, server installation and commissioning, from initial fit-out to handover.
+
+- name: Productivity & Office Software
+  slug: ms-office-productivity
+  icon: "layout-grid"
+  category: Infrastructure
+  tagline: Office software setup, business email, licensing, and ongoing support
+  summary: Setup and support for productivity and office software — Microsoft 365, Google Workspace, standalone Office, and business email — with Arabic-language support throughout.
+
+- name: CCTV & Physical Security
+  slug: cctv-physical-security
+  icon: "camera"
+  category: Infrastructure
+  tagline: IP cameras, fingerprint access, NVR, remote monitoring
+  summary: IP camera installation, fingerprint and access control devices, open-source NVR setup, and remote viewing. Offices, compounds, retail, and warehouses.
+
+- name: Endpoint & MDM
+  slug: endpoint-mdm
+  icon: "smartphone"
+  category: Infrastructure
+  tagline: Device management, BYOD policies, secure remote access
+  summary: Device inventory, security policy enforcement, remote wipe, BYOD management, and secure remote access — for businesses managing laptops, phones, and tablets.
+
+- name: IT Asset Management
+  slug: it-asset-management
+  icon: "package"
+  category: Infrastructure
+  tagline: Hardware, software, and licence tracking across branches
+  summary: Centralised asset visibility — hardware inventory, software licences, and multi-branch tracking. Particularly useful for businesses operating across multiple KSA locations.
+
+- name: PLC & IoT Commissioning
+  slug: building-automation-plc
+  icon: "cpu"
+  category: Infrastructure
+  tagline: PLC programming, IoT sensors, and remote monitoring for SMB operations
+  summary: PLC commissioning and programming, IoT sensor deployment, and remote monitoring dashboards — for light manufacturing, facilities, and any SMB environment where equipment needs to run reliably.
+
+- name: Home & Office Automation
+  slug: smart-automation
+  icon: "home"
+  category: Infrastructure
+  tagline: Smart lighting, climate, blinds, AV, and access control
+  summary: Integrated smart systems for homes and offices — lighting scenes, climate scheduling, motorised blinds, AV control, and smart access, all managed from one app.
+
+# Cybersecurity
+- name: Firewall & Network Security
+  slug: firewall-network-security
+  icon: "shield"
+  category: Cybersecurity
+  tagline: OPNsense/pfSense, VLAN segmentation, IDS/IPS
+  summary: Firewall deployment and hardening, VLAN segmentation, intrusion detection, and VPN gateway configuration on client hardware.
+
+- name: SIEM & Threat Detection
+  slug: siem-threat-detection
+  icon: "activity"
+  category: Cybersecurity
+  tagline: Wazuh XDR, continuous monitoring, bilingual reports
+  summary: SIEM and XDR deployment, log ingestion, threat detection, and monthly bilingual reporting — helping businesses understand their security posture over time.
+
+- name: Email Security & Hardening
+  slug: email-security
+  icon: "mail"
+  category: Cybersecurity
+  tagline: SPF/DKIM/DMARC, BEC protection, M365 hardening
+  summary: Email filtering, SPF/DKIM/DMARC setup, BEC protection, and Microsoft 365 security hardening — with full Arabic-language support.
+
+- name: Phishing Simulation & Awareness
+  slug: phishing-simulation
+  icon: "alert-triangle"
+  category: Cybersecurity
+  tagline: Arabic-language staff awareness campaigns
+  summary: Controlled phishing simulations in Arabic using locally relevant lures, with staff click-rate reporting and bilingual security awareness training.
+
+- name: DNS Security
+  slug: dns-security
+  icon: "layers"
+  category: Cybersecurity
+  tagline: DNS filtering, malicious domain blocking, content control
+  summary: DNS-level filtering to block malicious domains, phishing sites, and unwanted content — deployed on-site using open-source tools.
+
+- name: OT / IoT & Wireless Security
+  slug: ot-iot-security
+  icon: "wifi"
+  category: Cybersecurity
+  tagline: IT/OT segmentation, rogue device detection, Wi-Fi auditing
+  summary: Network segmentation for environments mixing office IT with industrial or IoT systems, rogue device detection, wireless auditing, and peripheral hardening.
+
+- name: Cloud Services
+  slug: cloud-services
+  icon: "cloud"
+  category: Infrastructure
+  tagline: Cloud migration, hosted tenants, VPS, virtualisation, and disaster recovery
+  summary: Cloud migration, Microsoft 365 and Google Workspace tenants, VPS and server hosting, virtualisation, and cloud backup and disaster recovery — with KSA data-residency awareness.
+
+# Digital & Advisory
+- name: IT Advisory
+  slug: it-advisory
+  icon: "lightbulb"
+  category: Advisory
+  tagline: Practical IT guidance, security awareness, and planning support
+  summary: Vendor-neutral advice on IT decisions, security awareness guidance, policy documentation, and planning support — without the overhead of a full-time IT manager.
+
+- name: Web Development
+  slug: web-development
+  icon: "code-2"
+  category: Advisory
+  tagline: Bilingual Arabic/English websites, business email, Google profile
+  summary: Business websites with Arabic RTL support, professional email setup, Google Business Profile, and domain registration — practical digital presence for SMEs.
+
+- name: App Development & Deployment
+  slug: app-development
+  icon: "rocket"
+  category: Advisory
+  tagline: Web apps, mobile apps, and cloud deployment on VMs and containers
+  summary: Custom web and mobile app development with bilingual Arabic/English support, deployed on virtual machines, containers, or managed cloud platforms in KSA.
+

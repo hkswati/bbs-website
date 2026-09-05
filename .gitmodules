@@ -1,0 +1,3 @@
+[submodule "blog/themes/hugo-theme-stacknote"]
+	path = blog/themes/hugo-theme-stacknote
+	url = https://github.com/myimilo/hugo-theme-stacknote.git

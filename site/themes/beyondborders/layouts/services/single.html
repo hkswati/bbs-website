@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section class="service-single-hero">
+  <div class="container">
+    <div class="page-hero-inner">
+      <span class="pill">Service</span>
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.tagline }}<p class="page-tagline">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="service-single-body">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    <aside class="service-sidebar">
+      <div class="service-sidebar-title">All Services</div>
+      <ul>
+        {{ range hugo.Data.services }}
+        <li>
+          <a href="/services/{{ .slug }}/">{{ .icon }} {{ .name }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </aside>
+  </div>
+</div>
+
+<section class="cta-strip">
+  <div class="container cta-strip-inner">
+    <div class="cta-strip-text">
+      <h2>Interested in {{ .Title }}?</h2>
+      <p>Get in touch and we'll walk you through exactly how we can help.</p>
+    </div>
+    <a href="/contact/" class="btn btn-primary">Contact Us</a>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beyond Borders — Color Palette Options</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #F0EEE8;
+      color: #1a1a1a;
+      padding: 48px 32px;
+    }
+
+    h1 {
+      font-size: 13px;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #888;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 48px;
+    }
+
+    .palettes {
+      display: grid;
+      gap: 64px;
+    }
+
+    .palette {
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 2px 24px rgba(0,0,0,0.07);
+    }
+
+    .palette-preview {
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 48px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .palette-preview .label {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      opacity: 0.6;
+    }
+
+    .palette-preview .headline {
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1.05;
+      margin-bottom: 16px;
+    }
+
+    .palette-preview .pill {
+      display: inline-block;
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .palette-preview .decor {
+      position: absolute;
+      right: 40px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: grid;
+      grid-template-columns: repeat(4, 18px);
+      grid-template-rows: repeat(4, 18px);
+      gap: 5px;
+      opacity: 0.35;
+    }
+
+    .palette-preview .decor span {
+      display: block;
+      width: 18px;
+      height: 18px;
+      border-radius: 3px;
+    }
+
+    .palette-meta {
+      padding: 28px 32px 32px;
+    }
+
+    .palette-name {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .palette-desc {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    .swatches {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .swatch {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .swatch-color {
+      width: 64px;
+      height: 64px;
+      border-radius: 10px;
+      border: 1px solid rgba(0,0,0,0.08);
+    }
+
+    .swatch-label {
+      font-size: 11px;
+      color: #888;
+      text-align: center;
+      line-height: 1.4;
+    }
+
+    .swatch-hex {
+      font-size: 11px;
+      font-weight: 600;
+      color: #444;
+      font-family: monospace;
+    }
+
+    .option-tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+
+    /* ── OPTION 1: Gold & Charcoal ── */
+    .p1-preview {
+      background: #F7F5EF;
+    }
+    .p1-preview .label { color: #9A8C6A; }
+    .p1-preview .headline { color: #1C1B2E; }
+    .p1-preview .pill { background: #C9A84C; color: #1C1B2E; }
+    .p1-preview .decor span { background: #C9A84C; }
+
+    /* ── OPTION 2: Gold & Deep Navy ── */
+    .p2-preview {
+      background: #0F1729;
+    }
+    .p2-preview .label { color: #8899BB; }
+    .p2-preview .headline { color: #F5F4EF; }
+    .p2-preview .pill { background: #D4A843; color: #0F1729; }
+    .p2-preview .decor span { background: #D4A843; }
+
+    /* ── OPTION 3: Sand & Gold ── */
+    .p3-preview {
+      background: #EDE8DF;
+    }
+    .p3-preview .label { color: #8B7355; }
+    .p3-preview .headline { color: #2C1810; }
+    .p3-preview .pill { background: #B8860B; color: #FAF7F2; }
+    .p3-preview .decor span { background: #B8860B; }
+
+    /* ── OPTION 4: Midnight & Champagne ── */
+    .p4-preview {
+      background: #0D0E14;
+    }
+    .p4-preview .label { color: #7A7A9A; }
+    .p4-preview .headline { color: #FAFAF8; }
+    .p4-preview .pill { background: #C4A55A; color: #0D0E14; }
+    .p4-preview .decor span { background: #C4A55A; }
+
+  </style>
+</head>
+<body>
+
+  <h1>Beyond Borders · Design System</h1>
+  <h2>Color Palette Options</h2>
+
+  <div class="palettes">
+
+    <!-- OPTION 1 -->
+    <div class="palette">
+      <div class="palette-preview p1-preview">
+        <div class="label">Beyond Borders Consultancy</div>
+        <div class="headline">Make Your Middle<br>East Vision Real.</div>
+        <div class="pill">Our Services</div>
+        <div class="decor">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span style="opacity:0"></span>
+          <span></span><span></span><span style="opacity:0"></span><span style="opacity:0"></span>
+          <span></span><span style="opacity:0"></span><span style="opacity:0"></span><span style="opacity:0"></span>
+        </div>
+      </div>
+      <div class="palette-meta">
+        <div class="option-tag" style="background:#FFF3CD; color:#8B6914;">Option 1 — Gold &amp; Charcoal</div>
+        <div class="palette-name">Warm &amp; Professional</div>
+        <div class="palette-desc">Light cream background keeps it airy and approachable. Gold pops as the accent without being flashy. Deep charcoal for text feels authoritative. Closest to Astral's light-mode feel but warmer.</div>
+        <div class="swatches">
+          <div class="swatch">
+            <div class="swatch-color" style="background:#F7F5EF;"></div>
+            <div class="swatch-label">Background</div>
+            <div class="swatch-hex">#F7F5EF</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#1C1B2E;"></div>
+            <div class="swatch-label">Text</div>
+            <div class="swatch-hex">#1C1B2E</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#C9A84C;"></div>
+            <div class="swatch-label">Gold Accent</div>
+            <div class="swatch-hex">#C9A84C</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#2E2D42;"></div>
+            <div class="swatch-label">Dark Sections</div>
+            <div class="swatch-hex">#2E2D42</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#9A8C6A;"></div>
+            <div class="swatch-label">Muted Text</div>
+            <div class="swatch-hex">#9A8C6A</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION 2 -->
+    <div class="palette">
+      <div class="palette-preview p2-preview">
+        <div class="label">Beyond Borders Consultancy</div>
+        <div class="headline">Make Your Middle<br>East Vision Real.</div>
+        <div class="pill">Our Services</div>
+        <div class="decor">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span style="opacity:0"></span>
+          <span></span><span></span><span style="opacity:0"></span><span style="opacity:0"></span>
+          <span></span><span style="opacity:0"></span><span style="opacity:0"></span><span style="opacity:0"></span>
+        </div>
+      </div>
+      <div class="palette-meta">
+        <div class="option-tag" style="background:#E8F0FF; color:#1A3A8F;">Option 2 — Gold &amp; Navy</div>
+        <div class="palette-name">Bold &amp; Confident</div>
+        <div class="palette-desc">Dark navy background as the hero/primary section (like Astral's dark blocks), with light sections for content. Gold on navy is a very classic high-end combination. Feels more premium and assertive.</div>
+        <div class="swatches">
+          <div class="swatch">
+            <div class="swatch-color" style="background:#F5F4EF;"></div>
+            <div class="swatch-label">Light BG</div>
+            <div class="swatch-hex">#F5F4EF</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#0F1729;"></div>
+            <div class="swatch-label">Dark BG / Text</div>
+            <div class="swatch-hex">#0F1729</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#D4A843;"></div>
+            <div class="swatch-label">Gold Accent</div>
+            <div class="swatch-hex">#D4A843</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#1E2F55;"></div>
+            <div class="swatch-label">Navy Mid</div>
+            <div class="swatch-hex">#1E2F55</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#8899BB;"></div>
+            <div class="swatch-label">Muted Text</div>
+            <div class="swatch-hex">#8899BB</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION 3 -->
+    <div class="palette">
+      <div class="palette-preview p3-preview">
+        <div class="label">Beyond Borders Consultancy</div>
+        <div class="headline">Make Your Middle<br>East Vision Real.</div>
+        <div class="pill">Our Services</div>
+        <div class="decor">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span style="opacity:0"></span>
+          <span></span><span></span><span style="opacity:0"></span><span style="opacity:0"></span>
+          <span></span><span style="opacity:0"></span><span style="opacity:0"></span><span style="opacity:0"></span>
+        </div>
+      </div>
+      <div class="palette-meta">
+        <div class="option-tag" style="background:#F5EDD8; color:#7A5C1E;">Option 3 — Sand &amp; Dark Gold</div>
+        <div class="palette-name">Earthy &amp; Regional</div>
+        <div class="palette-desc">Sandy/warm earth tones nod to the Middle East context without being cliché. Darker, richer gold (almost dark amber) as accent. Deep brown for text. Feels grounded and trustworthy — less tech, more advisory firm.</div>
+        <div class="swatches">
+          <div class="swatch">
+            <div class="swatch-color" style="background:#FAF7F2;"></div>
+            <div class="swatch-label">Light BG</div>
+            <div class="swatch-hex">#FAF7F2</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#2C1810;"></div>
+            <div class="swatch-label">Text</div>
+            <div class="swatch-hex">#2C1810</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#B8860B;"></div>
+            <div class="swatch-label">Dark Gold</div>
+            <div class="swatch-hex">#B8860B</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#EDE8DF;"></div>
+            <div class="swatch-label">Sand Mid</div>
+            <div class="swatch-hex">#EDE8DF</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#8B7355;"></div>
+            <div class="swatch-label">Muted Text</div>
+            <div class="swatch-hex">#8B7355</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION 4 -->
+    <div class="palette">
+      <div class="palette-preview p4-preview">
+        <div class="label">Beyond Borders Consultancy</div>
+        <div class="headline">Make Your Middle<br>East Vision Real.</div>
+        <div class="pill">Our Services</div>
+        <div class="decor">
+          <span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span style="opacity:0"></span>
+          <span></span><span></span><span style="opacity:0"></span><span style="opacity:0"></span>
+          <span></span><span style="opacity:0"></span><span style="opacity:0"></span><span style="opacity:0"></span>
+        </div>
+      </div>
+      <div class="palette-meta">
+        <div class="option-tag" style="background:#E8E8F5; color:#2D2D5A;">Option 4 — Midnight &amp; Champagne</div>
+        <div class="palette-name">Premium &amp; Modern</div>
+        <div class="palette-desc">Near-black background throughout (closest to Astral's dark aesthetic). Champagne/muted gold as the accent — more refined than bright gold. High contrast, very modern. Best if you want the site to feel cutting-edge and high-end.</div>
+        <div class="swatches">
+          <div class="swatch">
+            <div class="swatch-color" style="background:#FAFAF8;"></div>
+            <div class="swatch-label">Light BG</div>
+            <div class="swatch-hex">#FAFAF8</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#0D0E14;"></div>
+            <div class="swatch-label">Dark BG</div>
+            <div class="swatch-hex">#0D0E14</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#C4A55A;"></div>
+            <div class="swatch-label">Champagne Gold</div>
+            <div class="swatch-hex">#C4A55A</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#1A1B24;"></div>
+            <div class="swatch-label">Card BG</div>
+            <div class="swatch-hex">#1A1B24</div>
+          </div>
+          <div class="swatch">
+            <div class="swatch-color" style="background:#7A7A9A;"></div>
+            <div class="swatch-label">Muted Text</div>
+            <div class="swatch-hex">#7A7A9A</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="margin-top: 48px; padding: 24px; background: white; border-radius: 12px; font-size: 14px; color: #666; line-height: 1.7;">
+    <strong style="color:#333;">Note on typography (same across all options):</strong><br>
+    Headings: <strong>Outfit</strong> or <strong>DM Sans</strong> — bold, clean, modern without being sterile.<br>
+    Body: <strong>Inter</strong> — universally readable.<br>
+    These replace the pixel fonts Astral uses, which would feel out of place for a consultancy.
+  </div>
+
+</body>
+</html>

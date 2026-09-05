@@ -1,0 +1,54 @@
+<header class="site-header">
+  <nav class="nav container">
+    <a href="/" class="nav-logo">
+      <img src="/images/logo.png" alt="Beyond Borders" class="nav-logo-img" />
+      <span class="logo-text">Beyond Borders</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links">
+      <li class="nav-panel-header">
+        <span class="nav-panel-title">Menu</span>
+        <button class="nav-close" aria-label="Close menu">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="/services/" class="nav-link">
+          Services
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+            <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <div class="nav-dropdown">
+          <div class="dropdown-grid">
+            {{ range hugo.Data.services }}
+            <a href="/services/{{ .slug }}/" class="dropdown-item">
+              <div class="dropdown-icon">{{ .icon }}</div>
+              <div>
+                <div class="dropdown-name">{{ .name }}</div>
+                <div class="dropdown-desc">{{ .tagline }}</div>
+              </div>
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </li>
+      <li class="nav-item"><a href="/about/" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="{{ .Site.Params.blogURL }}" class="nav-link" target="_blank" rel="noopener">Blog</a></li>
+      <li class="nav-item"><a href="{{ .Site.Params.techURL }}" class="nav-link">Tech</a></li>
+      <li class="nav-item"><a href="/contact/" class="nav-link">Contact</a></li>
+      <li class="nav-panel-cta">
+        <a href="/contact/" class="btn btn-primary" style="width:100%;justify-content:center;">Get Started</a>
+      </li>
+    </ul>
+
+    <div class="nav-backdrop" aria-hidden="true"></div>
+    <a href="/contact/" class="btn btn-primary nav-cta">Get Started</a>
+  </nav>
+</header>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="page-hero container">
+  <div class="page-hero-inner">
+    <span class="pill">Company</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.tagline }}<p class="page-tagline">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="page-content container">
+  <div class="prose">
+    {{ .Content }}
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container cta-strip-inner">
+    <div class="cta-strip-text">
+      <h2>We're growing our team.</h2>
+      <p>If you are passionate about the Middle East and want to help ambitious businesses succeed, we'd love to hear from you.</p>
+    </div>
+    <a href="/contact/" class="btn btn-primary">Get in Touch</a>
+  </div>
+</section>
+{{ end }}

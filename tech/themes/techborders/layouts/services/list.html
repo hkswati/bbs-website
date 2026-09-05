@@ -1,0 +1,73 @@
+{{ define "main" }}
+<section class="services-list-hero">
+  <div class="container">
+    <div class="section-label">What We Offer</div>
+    <h1 class="section-title">Practical IT services<br>for Saudi businesses.</h1>
+    <p class="section-sub">Infrastructure, cybersecurity, and advisory — covering what a small to medium business actually needs, delivered by a local team.</p>
+  </div>
+</section>
+
+<section class="services-list-body">
+  <div class="container">
+
+    <div id="infrastructure" class="service-category-block">
+      <div class="service-category-label">
+        <span class="mono">01</span> Infrastructure
+      </div>
+      <div class="services-grid">
+        {{ range hugo.Data.services }}{{ if eq .category "Infrastructure" }}
+        <a href="/services/{{ .slug }}/" class="service-card">
+          <div class="service-icon">{{ partial "icon.html" (dict "name" .icon "size" 22) }}</div>
+          <div class="service-name">{{ .name }}</div>
+          <div class="service-tagline">{{ .tagline }}</div>
+          <div class="service-link">Learn more <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </a>
+        {{ end }}{{ end }}
+      </div>
+    </div>
+
+    <div id="cybersecurity" class="service-category-block">
+      <div class="service-category-label">
+        <span class="mono">02</span> Cybersecurity
+      </div>
+      <div class="services-grid">
+        {{ range hugo.Data.services }}{{ if eq .category "Cybersecurity" }}
+        <a href="/services/{{ .slug }}/" class="service-card service-card--cyber">
+          <div class="service-icon">{{ partial "icon.html" (dict "name" .icon "size" 22) }}</div>
+          <div class="service-name">{{ .name }}</div>
+          <div class="service-tagline">{{ .tagline }}</div>
+          <div class="service-link">Learn more <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </a>
+        {{ end }}{{ end }}
+      </div>
+    </div>
+
+    <div id="advisory" class="service-category-block">
+      <div class="service-category-label">
+        <span class="mono">03</span> Digital & Advisory
+      </div>
+      <div class="services-grid">
+        {{ range hugo.Data.services }}{{ if eq .category "Advisory" }}
+        <a href="/services/{{ .slug }}/" class="service-card">
+          <div class="service-icon">{{ partial "icon.html" (dict "name" .icon "size" 22) }}</div>
+          <div class="service-name">{{ .name }}</div>
+          <div class="service-tagline">{{ .tagline }}</div>
+          <div class="service-link">Learn more <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </a>
+        {{ end }}{{ end }}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-strip">
+  <div class="container cta-strip-inner">
+    <div class="cta-strip-text">
+      <h2>Not sure what you need?</h2>
+      <p>Describe your setup and the problem you're trying to solve — we'll suggest the right approach.</p>
+    </div>
+    <a href="/contact/" class="btn btn-primary">Get in Touch</a>
+  </div>
+</section>
+{{ end }}

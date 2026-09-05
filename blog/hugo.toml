@@ -1,0 +1,54 @@
+baseURL = "https://blog.beyondborders.com.sa/"
+locale = "en-us"
+title = "Beyond Borders Blog"
+theme = "hugo-theme-stacknote"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  author = "Beyond Borders"
+  authorInitials = "BB"
+  tagline = "Insights on Middle East market entry and IT services"
+  description = "Beyond Borders helps businesses establish, grow, and thrive across the Middle East — insights on entity setup, immigration, outsourcing, and IT services."
+  homeEyebrow = "INSIGHTS"
+  homeTitle = "Notes on doing business in the Middle East"
+  homeIntro = "Practical guidance on market entry, compliance, and the IT services that support growing businesses."
+  aboutIntro = "We help businesses establish, grow, and thrive across the Middle East."
+  email = "mohsin@beyondborders.com.sa"
+  mainSection = "articles"
+  authorPage = "/about/"
+  showToc = true
+  showTopics = true
+  showAbout = true
+  showNewsletter = true
+  newsletterURL = ""
+  minTagPostsToIndex = 2
+  themeColor = "#F7F5EF"
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 10
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 20
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 40

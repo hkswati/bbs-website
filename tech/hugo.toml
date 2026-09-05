@@ -1,0 +1,37 @@
+baseURL = "https://tech.beyondborders.com.sa/"
+locale = "en-us"
+title = "Beyond Borders Technologies | IT & Cybersecurity Services"
+theme = "techborders"
+enableRobotsTXT = true
+summaryLength = 30
+
+[params]
+  tagline = "Practical IT. No jargon."
+  description = "Practical IT and cybersecurity services for small and medium businesses in Saudi Arabia — networking, security, telephony, and more."
+  contactEmail = "tech@beyondborders.com.sa"
+  phone = "+966 56 603 0711"
+  whatsappNumber = "966566030711"
+  mainSiteURL = "https://beyondborders.com.sa"
+
+[menu]
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 1
+  [[menu.main]]
+    name = "Plans"
+    url = "/plans/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

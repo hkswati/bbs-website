@@ -1,0 +1,239 @@
+{{ define "main" }}
+
+<!-- ── Hero ────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="pill pill--cyber">Riyadh · KSA · Arabic & English</span>
+      </div>
+      <h1 class="hero-title">
+        IT that works.<br>
+        Support you can&nbsp;<em>rely on.</em>
+      </h1>
+      <p class="hero-sub" id="hero-typed">
+        Practical IT services for small and medium businesses in Saudi Arabia — networking, security, telephony, automation, and more. One team, one call.
+      </p>
+      <div class="hero-actions">
+        <a href="/services/" class="btn btn-primary">Explore Services</a>
+        <a href="/contact/" class="btn btn-outline">Talk to Us</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-card-title">
+          <span class="status-dot"></span>
+          What We Handle
+        </div>
+        <ul class="hero-stat-list">
+          <li class="hero-stat">
+            <span class="hero-stat-label">Server setup & administration</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+          <li class="hero-stat">
+            <span class="hero-stat-label">Networking & switches</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+          <li class="hero-stat">
+            <span class="hero-stat-label">IP phones & fiber</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+          <li class="hero-stat">
+            <span class="hero-stat-label">CCTV & access control</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+          <li class="hero-stat">
+            <span class="hero-stat-label">Office software & email</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+          <li class="hero-stat">
+            <span class="hero-stat-label">Security & firewalls</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+          <li class="hero-stat">
+            <span class="hero-stat-label">PLC & building automation</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+          <li class="hero-stat">
+            <span class="hero-stat-label">Smart home & office</span>
+            <span class="hero-stat-val">✓</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Stats strip ───────────────────────────────── -->
+<section class="trust-strip">
+  <div class="container trust-strip-inner">
+    <div class="trust-stat">
+      <div class="trust-stat-num">21</div>
+      <div class="trust-stat-label">Services Offered</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-stat">
+      <div class="trust-stat-num">SME</div>
+      <div class="trust-stat-label">Focused</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-stat">
+      <div class="trust-stat-num">AR/EN</div>
+      <div class="trust-stat-label">Bilingual Support</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-stat">
+      <div class="trust-stat-num">KSA</div>
+      <div class="trust-stat-label">Based Team</div>
+    </div>
+    <div class="trust-divider"></div>
+    <div class="trust-stat">
+      <div class="trust-stat-num">On-site</div>
+      <div class="trust-stat-label">& Remote Support</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Services ─────────────────────────────────── -->
+<section class="services-section">
+  <div class="container">
+    <div class="services-header">
+      <div class="section-label">What We Do</div>
+      <h2 class="section-title">Everything your business<br>needs from IT.</h2>
+      <p class="section-sub">Infrastructure, cybersecurity, and advisory — practical services sized for businesses that don't need a full-time IT department.</p>
+    </div>
+
+    <div class="category-grid">
+      <a href="/services/#infrastructure" class="category-card">
+        <div class="category-icon">{{ partial "icon.html" (dict "name" "server" "size" 28) }}</div>
+        <div class="category-num mono">01</div>
+        <div class="category-name">Infrastructure</div>
+        <div class="category-desc">Networking, switches, fiber, telephony, servers, CCTV, smart automation, and productivity software — the foundation of a working operation.</div>
+        <ul class="category-services">
+          <li>Networking, Switches & Wi-Fi</li>
+          <li>IP Telephony & VoIP</li>
+          <li>Fiber Splicing & Commissioning</li>
+          <li>CCTV & Fingerprint Access</li>
+          <li>Microsoft 365 & Productivity</li>
+          <li>PLC & IoT Commissioning</li>
+          <li>Telecom Infrastructure & DWDM</li>
+          <li>Data Centre Build-Out</li>
+          <li>Home & Office Automation</li>
+        </ul>
+        <div class="category-link">View all <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </a>
+
+      <a href="/services/#cybersecurity" class="category-card category-card--cyber">
+        <div class="category-icon">{{ partial "icon.html" (dict "name" "shield-check" "size" 28) }}</div>
+        <div class="category-num mono">02</div>
+        <div class="category-name">Cybersecurity</div>
+        <div class="category-desc">Firewalls, email security, monitoring, phishing awareness, DNS filtering, and credential breach monitoring — practical security for real businesses.</div>
+        <ul class="category-services">
+          <li>Firewall & Network Security</li>
+          <li>Email Security & Hardening</li>
+          <li>SIEM & Threat Detection</li>
+          <li>Phishing Simulation</li>
+          <li>DNS Security</li>
+          <li>OT / IoT & Wireless Security</li>
+        </ul>
+        <div class="category-link">View all <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </a>
+
+      <a href="/services/#advisory" class="category-card">
+        <div class="category-icon">{{ partial "icon.html" (dict "name" "briefcase" "size" 28) }}</div>
+        <div class="category-num mono">03</div>
+        <div class="category-name">Digital & Advisory</div>
+        <div class="category-desc">Web and app development, IT guidance, and OT / IoT security — digital presence and practical advice without the enterprise overhead.</div>
+        <ul class="category-services">
+          <li>IT Advisory</li>
+          <li>Web Development</li>
+          <li>App Development & Deployment</li>
+        </ul>
+        <div class="category-link">View all <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M3 7h8M7 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Why us / How it works ─────────────────────── -->
+<section class="feature-section">
+  <div class="container feature-inner">
+    <div>
+      <div class="section-label">Our Approach</div>
+      <h2 class="section-title">Practical IT.<br>No jargon.</h2>
+      <p class="section-sub">We focus on what your business actually needs — reliable infrastructure, sensible security, and support that responds when something breaks.</p>
+      <div class="feature-list">
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <div>
+            <div class="feature-item-title">One team across all services</div>
+            <div class="feature-item-desc">Networking, security, phones, CCTV, automation — the same team handles it all. No handoffs between vendors.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <div>
+            <div class="feature-item-title">On-site and remote support</div>
+            <div class="feature-item-desc">We come to you when needed and resolve remotely when possible — across Riyadh and the wider KSA.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-dot"></div>
+          <div>
+            <div class="feature-item-title">Arabic and English throughout</div>
+            <div class="feature-item-desc">Documentation, reporting, and communication delivered in Arabic and English — whichever works best for your team.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="process-steps">
+      <div class="process-step">
+        <div class="step-num mono">01</div>
+        <div>
+          <div class="step-title">Tell us what you need</div>
+          <div class="step-desc">Reach out via WhatsApp or email with a description of your setup and what isn't working. No forms, no waiting.</div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num mono">02</div>
+        <div>
+          <div class="step-title">Proposal within 24 hours</div>
+          <div class="step-desc">Clear scope, timeline, and SAR pricing — including hardware requirements and what we'll handle from our side.</div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num mono">03</div>
+        <div>
+          <div class="step-title">Deployment & handover</div>
+          <div class="step-desc">Our engineers handle setup, configuration, and staff walkthroughs. Everything documented in Arabic and English.</div>
+        </div>
+      </div>
+      <div class="process-step">
+        <div class="step-num mono">04</div>
+        <div>
+          <div class="step-title">Ongoing support</div>
+          <div class="step-desc">We stay available for questions, changes, and issues after delivery. No disappearing after the invoice.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ───────────────────────────────────────── -->
+<section class="cta-strip">
+  <div class="container cta-strip-inner">
+    <div class="cta-strip-text">
+      <h2>Ready to sort out your IT?</h2>
+      <p>Tell us what you need — we'll come back with a clear proposal, no jargon, priced in SAR.</p>
+    </div>
+    <div style="display:flex;gap:12px;flex-shrink:0;flex-wrap:wrap;">
+      <a href="/contact/" class="btn btn-primary">Get in Touch</a>
+      <a href="/services/" class="btn btn-outline-inv">Our Services</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

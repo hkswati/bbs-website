@@ -1,0 +1,59 @@
+- name: Entity Setup
+  slug: entity-setup
+  icon: "🏢"
+  tagline: Business formation & registration across the GCC
+  summary: We handle the full process of establishing your legal entity in Saudi Arabia and across the GCC — from choosing the right structure to obtaining all licences.
+
+- name: Business Process Outsourcing
+  slug: bpo
+  icon: "⚙️"
+  tagline: Delegate operations and focus on growth
+  summary: Outsource non-core business functions — accounting, payroll, admin, and more — to our expert teams so you can concentrate on what matters.
+
+- name: Government Relations
+  slug: government-relations
+  icon: "🏛️"
+  tagline: Navigate regulations with confidence
+  summary: We act as your liaison with Saudi and GCC government bodies, managing approvals, renewals, and compliance so nothing slips through the cracks.
+
+- name: Professional Employer Organisation (PEO)
+  slug: peo
+  icon: "👥"
+  tagline: Employ talent in the Middle East without a local entity
+  summary: Use our PEO service to hire employees in the region under our legal umbrella — fully compliant, fast, and without the overhead of setting up a new entity.
+
+- name: Global Mobility & Relocation
+  slug: global-mobility
+  icon: "✈️"
+  tagline: Seamless employee transfers, end to end
+  summary: From immigration paperwork to housing support, we manage the entire relocation journey for employees moving into or out of the Middle East.
+
+- name: Corporate Immigration
+  slug: corporate-immigration
+  icon: "📋"
+  tagline: Visas, work permits & compliance
+  summary: Our immigration specialists handle all visa categories, iqama renewals, exit/re-entry permits, and Saudisation requirements — on time, every time.
+
+- name: Event Management
+  slug: event-management
+  icon: "🎯"
+  tagline: Corporate events that make an impression
+  summary: Planning, logistics, and execution of corporate events, conferences, and roadshows across the Kingdom and the wider GCC.
+
+- name: Contracting
+  slug: contracting
+  icon: "📝"
+  tagline: Employment agreements built to local law
+  summary: We draft, review, and manage employment and service contracts that are fully compliant with Saudi Labour Law and tailored to your business needs.
+
+- name: Car Rental & Transportation
+  slug: car-rental
+  icon: "🚗"
+  tagline: Fleet solutions for businesses of any size
+  summary: Short and long-term vehicle rental, chauffeur services, and fleet management for corporate accounts operating across the region.
+
+- name: Training Center for Saudi Employees
+  slug: training-center
+  icon: "🎓"
+  tagline: Upskill your Saudi workforce
+  summary: Accredited training programmes designed to develop the skills of Saudi national employees — aligned with Vision 2030 Saudisation goals.

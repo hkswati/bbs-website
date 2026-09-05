@@ -1,0 +1,64 @@
+{{ define "main" }}
+<section class="service-single-hero">
+  <div class="service-hero-bg" aria-hidden="true"></div>
+  <div class="container">
+    <div class="page-hero-inner">
+      {{ with .Params.category }}<span class="pill pill--mono">{{ . }}</span>{{ end }}
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.tagline }}<p class="page-tagline">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<div class="container">
+  <div class="service-single-body">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    <aside class="service-sidebar">
+      {{ with .Params.tools }}
+      <div class="sidebar-block">
+        <div class="service-sidebar-title">Tools Used</div>
+        <ul class="tools-list">
+          {{ range . }}<li class="tool-tag">{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      {{ with .Params.compliance }}
+      <div class="sidebar-block">
+        <div class="service-sidebar-title">Compliance</div>
+        <ul class="tools-list">
+          {{ range . }}<li class="tool-tag tool-tag--compliance">{{ . }}</li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      <div class="sidebar-block">
+        <div class="service-sidebar-title">All Services</div>
+        <ul>
+          {{ range hugo.Data.services }}
+          <li><a href="/services/{{ .slug }}/" class="sidebar-service-link">
+            <span class="sidebar-service-icon">{{ partial "icon.html" (dict "name" .icon "size" 14) }}</span>
+            {{ .name }}
+          </a></li>
+          {{ end }}
+        </ul>
+      </div>
+      <div class="sidebar-block sidebar-contact-block">
+        <div class="service-sidebar-title">Get Started</div>
+        <p class="sidebar-cta-text">Questions about {{ .Title }}? We'll come back with a clear proposal.</p>
+        <a href="/contact/" class="btn btn-primary" style="width:100%;justify-content:center;font-size:13px;padding:10px 16px;">Talk to Us</a>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<section class="cta-strip">
+  <div class="container cta-strip-inner">
+    <div class="cta-strip-text">
+      <h2>Interested in {{ .Title }}?</h2>
+      <p>Get in touch and we'll walk you through exactly how we can help your business.</p>
+    </div>
+    <a href="/contact/" class="btn btn-primary">Talk to Us</a>
+  </div>
+</section>
+{{ end }}
