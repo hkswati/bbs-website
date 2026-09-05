@@ -37,21 +37,21 @@ enableRobotsTXT = true
   themeColor = "#F7F5EF"
 
 [[menu.main]]
+  name = "Home"
+  url = "https://beyondborders.com.sa/"
+  weight = 10
+
+[[menu.main]]
   name = "Archive"
   url = "/archives/"
-  weight = 10
+  weight = 20
 
 [[menu.main]]
   name = "Search"
   url = "/search/"
-  weight = 20
+  weight = 30
 
 [[menu.main]]
   name = "Tags"
   url = "/tags/"
-  weight = 30
-
-[[menu.main]]
-  name = "About"
-  url = "/about/"
   weight = 40
