@@ -13,6 +13,9 @@ enableRobotsTXT = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[permalinks]
+  articles = "/:slug/"
+
 [params]
   author = "Beyond Borders"
   authorInitials = "BB"
