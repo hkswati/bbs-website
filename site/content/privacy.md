@@ -11,7 +11,7 @@ This policy explains how Beyond Borders ("we", "us") handles personal data when 
 
 ## Who we are
 
-Beyond Borders is based at 20, 3rd Floor, Salah ud Din Ayubi Road, King Abdul Aziz District, Riyadh, Kingdom of Saudi Arabia (RHAA7644). For any privacy question or request, email [mohsin@beyondborders.com.sa](mailto:mohsin@beyondborders.com.sa).
+Beyond Borders is based at 20, 3rd Floor, Salah ud Din Ayubi Road, King Abdul Aziz District, Riyadh, Kingdom of Saudi Arabia (RHAA7644). For any privacy question or request, email [tech@beyondborders.com.sa](mailto:tech@beyondborders.com.sa).
 
 ## What we collect
 
@@ -63,7 +63,7 @@ Under the PDPL you have the right to:
 - ask us to delete data we no longer need
 - withdraw your consent at any time. This does not affect anything done before you withdrew it.
 
-To use any of these rights, email [mohsin@beyondborders.com.sa](mailto:mohsin@beyondborders.com.sa). We will reply within 30 days. If you are not satisfied with our response, you can complain to the Saudi Data & AI Authority (SDAIA).
+To use any of these rights, email [tech@beyondborders.com.sa](mailto:tech@beyondborders.com.sa). We will reply within 30 days. If you are not satisfied with our response, you can complain to the Saudi Data & AI Authority (SDAIA).
 
 ## Security
 
