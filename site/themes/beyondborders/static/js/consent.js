@@ -55,7 +55,8 @@
         '<div class="cc-text">' +
           '<p class="cc-title" id="cc-title">We value your privacy</p>' +
           '<p>We use cookies to understand how visitors use our site and to measure our marketing. ' +
-          'Essential cookies are always on. You can accept all, reject the rest, or choose below.</p>' +
+          'Essential cookies are always on. You can accept all, reject the rest, or choose below. ' +
+          '<a href="/privacy/">Privacy policy</a></p>' +
         '</div>' +
         '<div class="cc-prefs" hidden>' +
           '<label class="cc-toggle"><input type="checkbox" checked disabled /><span><strong>Essential</strong> Required for the site to work. Always on.</span></label>' +

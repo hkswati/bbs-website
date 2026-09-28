@@ -1333,3 +1333,5 @@ ul { list-style: none; }
   .cc-actions .btn { flex: 1 1 0; justify-content: center; }
   .cc-actions .cc-link { flex-basis: 100%; text-align: center; margin: 0 0 4px; }
 }
+.cc-text a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
+.footer-legal { display: flex; gap: 20px; align-items: center; }
