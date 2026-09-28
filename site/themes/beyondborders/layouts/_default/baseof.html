@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {{ partial "consent.html" . }}
   {{ partial "gtm-head.html" . }}
   {{ partial "head.html" . }}
 </head>
@@ -11,6 +12,7 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  <script src="/js/consent.js"></script>
   <script src="/js/main.js"></script>
 </body>
 </html>

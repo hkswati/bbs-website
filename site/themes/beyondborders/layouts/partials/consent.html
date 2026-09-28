@@ -1,0 +1,22 @@
+<!-- Consent Mode v2 defaults: must run before GTM. Applies a saved choice, otherwise denies all non-essential storage until the visitor chooses. -->
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+(function () {
+  var m = document.cookie.match(/(?:^|; )bb_consent=([^;]*)/), c = null;
+  try { c = m && JSON.parse(decodeURIComponent(m[1])); } catch (e) {}
+  if (!c || c.v !== 1) c = null;
+  var a = c && c.a ? 'granted' : 'denied';
+  var k = c && c.m ? 'granted' : 'denied';
+  gtag('consent', 'default', {
+    analytics_storage: a,
+    ad_storage: k,
+    ad_user_data: k,
+    ad_personalization: k,
+    functionality_storage: 'granted',
+    security_storage: 'granted',
+    wait_for_update: 500
+  });
+  if (k === 'denied') gtag('set', 'ads_data_redaction', true);
+})();
+</script>
