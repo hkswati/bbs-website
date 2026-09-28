@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  {{ partial "gtm-head.html" . }}
   {{ partial "head.html" . }}
 </head>
 <body class="{{ if .IsHome }}is-home{{ end }}">
+  {{ partial "gtm-body.html" . }}
   {{ partial "nav.html" . }}
   <main>
     {{ block "main" . }}{{ end }}
