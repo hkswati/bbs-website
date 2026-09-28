@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="page-hero container">
   <div class="page-hero-inner">
-    <span class="pill">{{ .Section | humanize }}</span>
+    {{ with .Params.pill | default (.Section | humanize) }}<span class="pill">{{ . }}</span>{{ end }}
     <h1>{{ .Title }}</h1>
     {{ with .Params.tagline }}<p class="page-tagline">{{ . }}</p>{{ end }}
   </div>
