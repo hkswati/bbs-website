@@ -1,8 +1,8 @@
 ---
 title: "Government Relations"
-headline: "Ongoing PRO support for foreign-owned companies in Saudi Arabia"
+headline: "Ongoing PRO support for foreign and locally owned companies in Saudi Arabia"
 tagline: "One Riyadh-based team and a dedicated account manager handle your company's government touchpoints — workforce, Qiwa and Muqeem, and compliance — so your team can focus on the business."
-description: "Ongoing PRO support for foreign-owned companies in Saudi Arabia from a private Riyadh-based consultancy, with a dedicated account manager for workforce, Qiwa and Muqeem, and compliance."
+description: "Ongoing PRO support for foreign and locally owned companies in Saudi Arabia from a private Riyadh-based consultancy, with a dedicated account manager for workforce, Qiwa and Muqeem, and compliance."
 contactCta: true
 whatsappText: "Hello, I'd like to discuss PRO support for our company"
 disclaimer: true
