@@ -1,8 +1,8 @@
 - name: Entity Setup
   slug: entity-setup
   icon: "🏢"
-  tagline: Business formation & registration across the GCC
-  summary: We handle the full process of establishing your legal entity in Saudi Arabia and across the GCC — from choosing the right structure to obtaining all licences.
+  tagline: Market entry advisory across the GCC
+  summary: Structure and ownership advice and regulatory guidance for setting up in Saudi Arabia and across the GCC — one partner from the first conversation to ongoing compliance.
 
 - name: Business Process Outsourcing
   slug: bpo
@@ -14,7 +14,7 @@
   slug: government-relations
   icon: "🏛️"
   tagline: Navigate regulations with confidence
-  summary: We act as your liaison with Saudi and GCC government bodies, managing approvals, renewals, and compliance so nothing slips through the cracks.
+  summary: Ongoing PRO support with a dedicated account manager for your company's government touchpoints — workforce, Qiwa and Muqeem, and compliance.
 
 - name: Professional Employer Organisation (PEO)
   slug: peo
@@ -26,13 +26,13 @@
   slug: global-mobility
   icon: "✈️"
   tagline: Seamless employee transfers, end to end
-  summary: From immigration paperwork to housing support, we manage the entire relocation journey for employees moving into or out of the Middle East.
+  summary: From Qiwa & Muqeem support to housing, we coordinate the entire relocation journey for employees moving into or out of the Middle East.
 
 - name: Corporate Immigration
   slug: corporate-immigration
   icon: "📋"
-  tagline: Visas, work permits & compliance
-  summary: Our immigration specialists handle all visa categories, iqama renewals, exit/re-entry permits, and Saudisation requirements — on time, every time.
+  tagline: Qiwa & Muqeem support and workforce compliance
+  summary: Workforce compliance support for your expatriate team — Qiwa and Muqeem support, guidance on Saudisation requirements, and deadline tracking so nothing is missed.
 
 - name: Event Management
   slug: event-management
@@ -56,4 +56,4 @@
   slug: training-center
   icon: "🎓"
   tagline: Upskill your Saudi workforce
-  summary: Accredited training programmes designed to develop the skills of Saudi national employees — aligned with Vision 2030 Saudisation goals.
+  summary: Training programmes designed to develop the skills of Saudi national employees — aligned with Vision 2030 Saudisation goals.
