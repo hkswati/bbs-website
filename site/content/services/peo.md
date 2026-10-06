@@ -1,9 +1,9 @@
 ---
-title: "Professional Employer Organisation (PEO)"
+title: "Professional Employer Outsourcing (PEO)"
 tagline: "Employ talent in Saudi Arabia without setting up your own entity."
 ---
 
-If you need to hire employees in Saudi Arabia before your own legal entity is established — or want to test the market without the overhead of full incorporation — our PEO service gives you a compliant, fast route to market. Your staff work exclusively for your business, employed under our legal umbrella and fully covered by Saudi Labour Law.
+If you need to hire employees in Saudi Arabia before your own legal entity is established — or want to test the market without the overhead of full incorporation — our PEO service gives you a compliant, fast route to market. Acting as your Employer of Record (EOR), we employ your staff under our legal umbrella while they work exclusively for your business, fully covered by Saudi Labour Law.
 
 ## What Is Included
 
@@ -23,4 +23,4 @@ If you need to hire employees in Saudi Arabia before your own legal entity is es
 
 ## Saudi Labour Law Considerations
 
-Saudi Labour Law governs end-of-service benefits, notice periods, working hours, and employee protections in significant detail. Non-compliance carries financial penalties and reputational risk. As the legal employer of record, we absorb that obligation — and manage it correctly on your behalf.
+Saudi Labour Law governs end-of-service benefits, notice periods, working hours, and employee protections in significant detail. Non-compliance carries financial penalties and reputational risk. As the legal Employer of Record, we absorb that obligation — and manage it correctly on your behalf.
