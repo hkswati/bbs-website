@@ -741,6 +741,7 @@ ul { list-style: none; }
 .prose ul li { margin-bottom: 8px; font-size: 16px; line-height: 1.65; color: #3a3a52; }
 .prose strong { font-weight: 700; color: var(--darker); }
 .prose a { color: var(--gold-dim); text-decoration: underline; }
+.prose a.btn { color: var(--darker); text-decoration: none; margin-top: 4px; }
 
 /* ── About page ────────────────────────────────────── */
 .about-grid {
