@@ -17,7 +17,7 @@ Saudi Arabia has become a major destination for international conferences, trade
 ## What We Handle
 
 - Venue sourcing and booking across the Kingdom
-- Permitting and regulatory approvals from relevant Saudi authorities
+- Guidance on event permits and regulatory requirements
 - Catering, audio-visual production, and stage design
 - Guest management, invitations, and RSVP coordination
 - VIP logistics and protocol management
