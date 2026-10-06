@@ -46,6 +46,10 @@
     </div>
   </div>
 
+  <div class="footer-disclaimer container">
+    {{ partial "disclaimer.html" . }}
+  </div>
+
   <div class="footer-bottom container">
     <p>© {{ now.Format "2006" }} Beyond Borders. All rights reserved.</p>
     <div class="footer-legal"><a href="/privacy/">Privacy policy</a><button type="button" class="cc-link" data-consent-open>Cookie settings</button></div>

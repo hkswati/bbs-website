@@ -1125,6 +1125,22 @@ ul { list-style: none; }
 .footer-bottom a { color: rgba(247,245,239,0.35); transition: color 0.15s; }
 .footer-bottom a:hover { color: var(--gold); }
 
+/* ── Disclaimer ────────────────────────────────────── */
+.disclaimer {
+  font-size: 13px;
+  line-height: 1.6;
+}
+.disclaimer a { text-decoration: underline; text-underline-offset: 2px; }
+
+.footer-disclaimer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(247,245,239,0.08);
+}
+.footer-disclaimer .disclaimer { color: rgba(247,245,239,0.7); max-width: 820px; }
+.footer-disclaimer .disclaimer a { color: rgba(247,245,239,0.85); transition: color 0.15s; }
+.footer-disclaimer .disclaimer a:hover { color: var(--gold); }
+
 /* ── Responsive ────────────────────────────────────── */
 @media (max-width: 900px) {
   .hero-inner,
