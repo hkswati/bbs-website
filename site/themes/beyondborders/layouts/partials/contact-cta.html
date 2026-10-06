@@ -1,0 +1,6 @@
+{{- $text := .Params.whatsappText | default "Hello, I'd like to discuss PRO support for our company" -}}
+<div class="contact-cta">
+  <a class="btn btn-primary" href="https://wa.me/{{ site.Params.whatsappNumber }}?text={{ replace ($text | urlquery) "+" "%20" }}"
+     target="_blank" rel="noopener">WhatsApp us</a>
+  <a class="btn btn-outline-inv" href="tel:+{{ site.Params.whatsappNumber }}">Call {{ site.Params.phone }}</a>
+</div>

@@ -1141,6 +1141,21 @@ ul { list-style: none; }
 .footer-disclaimer .disclaimer a { color: rgba(247,245,239,0.85); transition: color 0.15s; }
 .footer-disclaimer .disclaimer a:hover { color: var(--gold); }
 
+/* ── Contact CTA (service page heroes) ─────────────── */
+.contact-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.prose-disclaimer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(28,27,46,0.1);
+}
+.prose .prose-disclaimer .disclaimer { font-size: 14px; color: #3a3a52; margin-bottom: 0; }
+
 /* ── Responsive ────────────────────────────────────── */
 @media (max-width: 900px) {
   .hero-inner,
