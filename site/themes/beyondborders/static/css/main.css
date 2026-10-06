@@ -1130,6 +1130,7 @@ ul { list-style: none; }
 .disclaimer {
   font-size: 13px;
   line-height: 1.6;
+  font-style: italic;
 }
 .disclaimer a { text-decoration: underline; text-underline-offset: 2px; }
 
