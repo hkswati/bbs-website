@@ -17,6 +17,6 @@ Since our founding we have helped over 500 entities establish operations across 
 
 The founders of Beyond Borders spent years navigating the complexity of the Saudi and GCC business landscape first-hand — as employees, as investors, and as entrepreneurs. What they found was a market full of opportunity but with a high friction cost for newcomers.
 
-Beyond Borders was built to remove that friction. Today our team of specialists covers every discipline a growing business needs: legal and entity formation, HR and immigration, government relations, logistics, and more — all under one roof.
+Beyond Borders was built to remove that friction. Today our team of specialists covers every discipline a growing business needs: market entry advisory, HR and workforce compliance, government relations, logistics, and more — all under one roof.
 
 We believe that when businesses succeed in the Middle East, the whole region benefits. That conviction drives everything we do.
