@@ -1,6 +1,7 @@
 {{- $text := .Params.whatsappText | default "Hello, I'd like to discuss PRO support for our company" -}}
+{{- $wa := printf "https://wa.me/%s?text=%s" site.Params.whatsappNumber (replace ($text | urlquery) "+" "%20") -}}
 <div class="contact-cta">
-  <a class="btn btn-primary" href="https://wa.me/{{ site.Params.whatsappNumber }}?text={{ replace ($text | urlquery) "+" "%20" }}"
+  <a class="btn btn-primary" href="{{ $wa | safeURL }}"
      target="_blank" rel="noopener">WhatsApp us</a>
   <a class="btn btn-outline-inv" href="tel:+{{ site.Params.whatsappNumber }}">Call {{ site.Params.phone }}</a>
 </div>
