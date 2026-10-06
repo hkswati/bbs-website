@@ -9,7 +9,7 @@ If you need to hire employees in Saudi Arabia before your own legal entity is es
 
 - Employment contracts compliant with Saudi Labour Law
 - Payroll processing and WPS (Wage Protection System) compliance
-- GOSI (General Organization for Social Insurance) registration and contributions
+- GOSI (General Organization for Social Insurance) enrolment and contributions
 - Iqama and work permit sponsorship
 - Annual leave, public holiday management, and end-of-service gratuity calculations
 - Benefits administration in line with MHRSD requirements
