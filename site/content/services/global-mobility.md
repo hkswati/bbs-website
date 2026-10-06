@@ -3,13 +3,13 @@ title: "Global Mobility & Relocation"
 tagline: "End-to-end relocation support for employees moving to Saudi Arabia."
 ---
 
-Moving an employee to Saudi Arabia involves far more than booking a flight. Iqama issuance, housing, schooling, medical registration, and cultural orientation all need to happen in a coordinated sequence — often under time pressure. Our Global Mobility team manages the entire journey so your employee arrives settled, compliant, and ready to contribute from day one.
+Moving an employee to Saudi Arabia involves far more than booking a flight. Iqama paperwork, housing, schooling, medical enrolment, and cultural orientation all need to happen in a coordinated sequence — often under time pressure. Our Global Mobility team manages the entire journey so your employee arrives settled, compliant, and ready to contribute from day one.
 
 ## What We Manage
 
 - Pre-move cultural orientation and practical briefings
 - Airport meet and greet and temporary accommodation on arrival
-- Iqama (residency permit) issuance and processing
+- Support with Iqama (residency permit) requirements
 - Medical fitness test coordination
 - Long-term housing search and tenancy management
 - School search and enrolment support for dependent children
@@ -19,7 +19,7 @@ Moving an employee to Saudi Arabia involves far more than booking a flight. Iqam
 
 ## Repatriation
 
-We handle outbound moves with the same rigour — Iqama cancellation, exit permits, lease terminations, and logistics for employees completing their assignments or moving on.
+We support outbound moves with the same rigour — Iqama cancellation paperwork, exit requirements, lease terminations, and logistics for employees completing their assignments or moving on.
 
 ## Why It Matters
 
