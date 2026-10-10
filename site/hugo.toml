@@ -11,10 +11,8 @@ summaryLength = 30
   blogURL = "https://blog.beyondborders.com.sa"
   techURL = "https://tech.beyondborders.com.sa"
   contactEmail = "mohsin@beyondborders.com.sa"
-  # Calls stay on the consultant's number; WhatsApp goes to the customer number,
-  # where the lead bot answers (live 2026-10-10) and alerts 7541.
   phone = "+966 55 583 7541"
-  whatsappNumber = "966551602611"
+  whatsappNumber = "966555837541"
   # Google Tag Manager container ID. Only rendered in production builds (not hugo server).
   gtmID = "GTM-5S2DB5W5"
   address =  "20, 3rd Floor, Salah ud Din Ayubi Road King Abdul Aziz District, Riyadh KSA. RHAA7644"

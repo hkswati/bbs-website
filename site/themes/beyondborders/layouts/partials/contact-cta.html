@@ -3,5 +3,5 @@
 <div class="contact-cta">
   <a class="btn btn-primary" href="{{ $wa | safeURL }}"
      target="_blank" rel="noopener">WhatsApp us</a>
-  <a class="btn btn-outline-inv" href="tel:+{{ replace (replace site.Params.phone " " "") "+" "" }}">Call {{ site.Params.phone }}</a>
+  <a class="btn btn-outline-inv" href="tel:+{{ site.Params.whatsappNumber }}">Call {{ site.Params.phone }}</a>
 </div>
