@@ -5,8 +5,6 @@ tagline: "How we collect, use and protect information when you visit our website
 description: "How Beyond Borders collects, uses and protects personal data, including our use of cookies and Google Analytics."
 ---
 
-*Last updated: 10 October 2026*
-
 This policy explains how Beyond Borders ("we", "us") handles personal data when you visit beyondborders.com.sa and its subdomains (blog.beyondborders.com.sa and tech.beyondborders.com.sa), or when you contact us. We follow the Saudi Personal Data Protection Law (PDPL) and its implementing regulations.
 
 ## Who we are
@@ -73,4 +71,4 @@ We take reasonable technical and organisational measures to protect personal dat
 
 ## Changes to this policy
 
-We may update this policy from time to time. The date at the top shows when it last changed. If we make significant changes, we will ask for your cookie consent again.
+We may update this policy from time to time. If we make significant changes, we will ask for your cookie consent again.
