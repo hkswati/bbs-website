@@ -5,7 +5,7 @@ tagline: "How we collect, use and protect information when you visit our website
 description: "How Beyond Borders collects, uses and protects personal data, including our use of cookies and Google Analytics."
 ---
 
-*Last updated: 28 September 2026*
+*Last updated: 10 October 2026*
 
 This policy explains how Beyond Borders ("we", "us") handles personal data when you visit beyondborders.com.sa and its subdomains (blog.beyondborders.com.sa and tech.beyondborders.com.sa), or when you contact us. We follow the Saudi Personal Data Protection Law (PDPL) and its implementing regulations.
 
@@ -45,6 +45,8 @@ Until you make a choice, no analytics or marketing cookies are set. You can chan
 ## Who we share it with
 
 We use **Google** (Google Analytics and Google Tag Manager) to process website usage data on our behalf. Google may process this data on servers outside Saudi Arabia, including in the United States. You can read more in [Google's explanation of how it uses data from sites that use its services](https://policies.google.com/technologies/partner-sites).
+
+We use **Meta** (the WhatsApp Business Platform) to receive and reply to WhatsApp messages sent to our business number. Meta processes these messages on our behalf and may do so on servers outside Saudi Arabia. You can read more in [WhatsApp's privacy policy](https://www.whatsapp.com/legal/privacy-policy).
 
 We may also disclose personal data where the law requires it, for example to a government authority. We do not otherwise share your data with third parties.
 
