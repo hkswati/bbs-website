@@ -1,14 +1,15 @@
 ---
 title: "Government Relations"
+seoTitle: "PRO & GRO Services in Riyadh for Companies"
 headline: "Ongoing PRO support for foreign and locally owned companies in Saudi Arabia"
 tagline: "One Riyadh-based team and a dedicated account manager handle your company's government touchpoints — workforce, Qiwa and Muqeem, and compliance — so your team can focus on the business."
-description: "Ongoing PRO support for foreign and locally owned companies in Saudi Arabia from a private Riyadh-based consultancy, with a dedicated account manager for workforce, Qiwa and Muqeem, and compliance."
+description: "Corporate PRO and GRO services in Riyadh, Jeddah and Dammam: ongoing PRO support for foreign and locally owned companies in Saudi Arabia from a private Riyadh-based consultancy, with a dedicated account manager for workforce, Qiwa and Muqeem, Saudization and Nitaqat, and compliance."
 contactCta: true
 whatsappText: "Hello, I'd like to discuss PRO support for our company"
 disclaimer: true
 ---
 
-Operating in Saudi Arabia means engaging regularly with a network of ministries, municipalities, and regulatory authorities. Knowing the right procedures, platforms, and timelines is the difference between a business that moves fast and one that stalls. Our Government Relations team brings that knowledge from day one, as an ongoing PRO partner rather than a one-off service.
+Operating in Saudi Arabia means engaging regularly with a network of ministries, municipalities, and regulatory authorities. Knowing the right procedures, platforms, and timelines is the difference between a business that moves fast and one that stalls. Our Government Relations team brings that knowledge from day one, as an ongoing PRO partner rather than a one-off service. We provide corporate PRO services in Riyadh, Jeddah and Dammam, for foreign and locally owned companies.
 
 ## What Ongoing PRO Support Covers
 
@@ -22,6 +23,10 @@ Operating in Saudi Arabia means engaging regularly with a network of ministries,
 - Regulatory guidance on sector-specific requirements (SAMA, SFDA, CMA, and others)
 - Contract and tender support for government-facing entities
 - Compliance audits and company health checks
+
+## Saudization and Nitaqat Compliance Support
+
+Your Nitaqat band affects what your company can do on Qiwa and with other government services, so a slip below your required Saudization percentage is costly. We track your band as your headcount changes, flag when a new hire or a departure will move you, and advise on a hiring plan that keeps you in the green.
 
 ## How It Works: One Dedicated Account Manager
 
