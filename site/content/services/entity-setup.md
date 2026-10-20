@@ -1,15 +1,15 @@
 ---
 title: "Entity Setup"
 seoTitle: "Business Setup in Saudi Arabia for Foreign and Local Companies"
-headline: "Business setup and company formation in Saudi Arabia, for foreign companies"
+headline: "Business setup and company formation in Saudi Arabia, for foreign and local companies"
 tagline: "Market entry advisory for Saudi Arabia and the GCC — set up in KSA with one partner."
-description: "Business setup and company formation in Saudi Arabia for foreign companies: branch office or LLC structure advice, fully foreign-owned companies, and ongoing PRO support from a private Riyadh-based consultancy."
+description: "Business setup and company formation in Saudi Arabia for foreign and local companies: branch office or LLC structure advice, fully foreign-owned companies, and ongoing PRO support from a private Riyadh-based consultancy."
 contactCta: true
 whatsappText: "Hello, I'd like to discuss setting up our company in Saudi Arabia"
 disclaimer: true
 ---
 
-Establishing a legal entity in Saudi Arabia or across the GCC is the foundation of any successful market entry. Beyond Borders guides foreign companies through business setup step by step, so you can focus on building your business rather than navigating unfamiliar procedures.
+Establishing a legal entity in Saudi Arabia or across the GCC is the foundation of any successful market entry. Beyond Borders guides foreign companies through business setup step by step, so you can focus on building your business rather than navigating unfamiliar procedures. We also work with Saudi and GCC-owned companies setting up a new entity, opening a branch in another city, or restructuring as they grow.
 
 ## Setting up a company in Saudi Arabia: structure, timeline and cost
 
