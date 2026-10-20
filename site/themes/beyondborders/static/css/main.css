@@ -1374,11 +1374,17 @@ ul { list-style: none; }
 .footer-bottom .cc-link { color: rgba(247,245,239,0.35); text-decoration: none; }
 
 @media (max-width: 680px) {
-  .cc-banner { padding: 16px 0; max-height: 85vh; overflow-y: auto; }
-  .cc-prefs { grid-template-columns: 1fr; }
-  .cc-actions { width: 100%; }
-  .cc-actions .btn { flex: 1 1 0; justify-content: center; }
-  .cc-actions .cc-link { flex-basis: 100%; text-align: center; margin: 0 0 4px; }
+  /* Keep the closed banner under ~30% of a phone screen so the hero
+     headline and contact buttons stay visible before the visitor chooses. */
+  .cc-banner { padding: 12px 0; max-height: 85vh; overflow-y: auto; }
+  .cc-inner { gap: 10px; }
+  .cc-text { font-size: 13px; line-height: 1.5; }
+  .cc-title { font-size: 15px; margin-bottom: 2px; }
+  .cc-prefs { grid-template-columns: 1fr; gap: 8px; }
+  .cc-toggle { padding: 10px 12px; }
+  .cc-actions { width: 100%; gap: 10px; }
+  .cc-actions .btn { flex: 1 1 0; justify-content: center; padding: 9px 12px; font-size: 14px; }
+  .cc-actions .cc-link { flex: 0 0 auto; font-size: 14px; margin: 0; }
 }
 .cc-text a { color: var(--gold); text-decoration: underline; text-underline-offset: 3px; }
 .footer-legal { display: flex; gap: 20px; align-items: center; }
