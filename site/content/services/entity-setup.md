@@ -1,6 +1,6 @@
 ---
 title: "Entity Setup"
-seoTitle: "Business Setup in Saudi Arabia for Foreign Companies"
+seoTitle: "Business Setup in Saudi Arabia for Foreign and Local Companies"
 headline: "Business setup and company formation in Saudi Arabia, for foreign companies"
 tagline: "Market entry advisory for Saudi Arabia and the GCC — set up in KSA with one partner."
 description: "Business setup and company formation in Saudi Arabia for foreign companies: branch office or LLC structure advice, fully foreign-owned companies, and ongoing PRO support from a private Riyadh-based consultancy."
